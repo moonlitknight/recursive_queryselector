@@ -9,9 +9,7 @@
   "description": "Simple function to recursively apply a querySelectorAll to embedded webcomponents",
   "license": "ISC",
   "main": "index.js",
-  "scripts": {
-  },
-  "version": "0.1.0",
-  "devDependencies": {
-  }
+  "scripts": {},
+  "version": "0.2.0",
+  "devDependencies": {}
 }
