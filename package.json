@@ -1,0 +1,17 @@
+{
+  "name": "recursive_queryselector",
+  "author": {
+    "name": "MoonlitKnight"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Simple function to recursively apply a querySelectorAll to embedded webcomponents",
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+  },
+  "version": "0.1.0",
+  "devDependencies": {
+  }
+}
