@@ -24,7 +24,7 @@ export const recursiveQuerySelectorAll = (q) => {
   let resArray = []; // the result array which will hold the queried elements
   for (let e of eArray) {
     //console.log(e);
-    resArray = resArray.concat(...e.querySelectorAll('#tb'));  // run the query on each shadowRoot and accumulate into the resArray
+    resArray = resArray.concat(...e.querySelectorAll(q));  // run the query on each shadowRoot and accumulate into the resArray
   }
   //console.log(resArray);
   return resArray;
